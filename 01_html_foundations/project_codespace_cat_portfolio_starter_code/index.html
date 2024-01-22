@@ -9,28 +9,97 @@
 
 <body>
 
+    <!-- Header and Navigation -->
     <header>
         <h1>CodeSpace Cat's Portfolio 🎨</h1>
         <nav>
+            <!-- Navigation Menu -->
+            <ul>
+                <li><a href="#about-me">About Me 👋</a></li>
+                <li><a href="#my-skills">Skills ⚒️</a></li>
+                <li><a href="#cat-portfolio">Porfolio 📸</a></li>
+                <li><a href="#contact-section">Contact 🤙</a></li>
+            </ul>
         </nav>
     </header>
 
-    <section id="">
-    </section>
+    <!-- About Me Section -->
+    <main>
+      <section id="about-me">
+          <h2>About Me 😸</h2>
+          <img src="images/cat-codespace.png" alt="CodeSpace Cat">
+          <p>Hello! I'm <strong>CodeSpace Cat</strong>. I'm purr-ssionate about web development and design. I've been pawing at the web industry for just one catnap (that's less than a day in human terms), and I adore crafting pawsitively intuitive, whisker-twitching, and fur-tastic web experiences. Whoa that's a lot of puns. 🐾  </p>
+      </section>
 
-    <section id="">
-    </section>
+      <!-- Skills Section -->
+      <section id="my-skills">
+          <h2>My Skills 🤹🏼‍♂️</h2>
+          <ul>
+              <li>Web development ❄️</li>
+              <li>UI/UX Design 🎨</li>
+              <li>Backend Development 🧱</li>
+              <li>Database Management 💻</li>
+              <li>SEO Optimization 🔎</li>
+              <li>Lying in the sun 🌞</li>
+          </ul>
+      </section>
 
-    <section id="">
+      <!-- Portfolio Section -->
+      <section id="cat-portfolio">
         <h2>Catfolio</h2>
         <table>
+          <thead>
+            <tr>
+                <th>Project Name</th>
+                <th>Date</th>
+                <th>Description</th>
+                <th>Thumbnail</th>
+            </tr>
+          </thead>
+          <tbody>
+
+            <tr>
+                <td>Purrfect Landing Page</td>
+                <td>January 2024</td>
+                <td>A delightful landing page for a luxury cat condo.</td>
+                <td>
+                    <img src="images/1.png" alt="Landing page for luxury cat condo">
+                </td>
+            </tr>
+            <tr>
+                <td>Kitty Commenrce</td>
+                <td>February 2024</td>
+                <td>An online store selling the fanciest catnip toys.</td>
+                <td><img src="images/2.png" alt="Online store project thumbnail" ></td>
+            </tr>
+            <tr>
+                <td>CatChatSocial</td>
+                <td>June 2024</td>
+                <td>A social media site for cats to meow and hiss!</td>
+                <td><img src="images/3.png" alt="Social media site thumbnail"></td>
+            </tr>
+          </tbody>
         </table>
-    </section>
+      </section>
 
-    <section id="">  
-    </section>
-
+      <!-- Contact Section -->
+      <section id="contact-section">  
+          <h2>Contact Me</h2>
+          <form>
+              <lable for="name">Name:</lable>
+              <input type="text" id="name">
+              <label for="email">Email:</label>
+              <input type="email" id="email">
+              <lable for="message">Message:</lable>
+              <textarea id="message" rows="2"></textarea>
+              <button type="submit">Submit</button>
+          </form>
+      </section>
+    </main>
+     
+    <!-- Footer -->
     <footer>
+        <p>&copy 2024 CodeSpace Cat. All rights reserved.</p>
     </footer>
 
 </body>
